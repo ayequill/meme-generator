@@ -1,0 +1,13 @@
+//  convert px to em 
+@function toRem($value){
+    $remValue: calc($value / 16) + rem;
+    @return $remValue;
+}
+
+@mixin media-lg{
+    @media screen and (min-width: 601px) {
+        @content
+    }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');

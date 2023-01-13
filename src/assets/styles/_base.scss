@@ -1,0 +1,35 @@
+@import "config";
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+   font-family: 'Karla', sans-serif;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.container{
+  max-width: 600px;
+  width: 100%;
+}
+@include media-lg{
+   .container{ 
+    max-width: 900px;
+    margin: 0 auto;
+  }
+   header{
+    max-width: inherit;
+   }
+}
+img{
+    max-width: 100%;
+    height: auto;
+}

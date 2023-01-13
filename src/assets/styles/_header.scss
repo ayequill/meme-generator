@@ -1,0 +1,14 @@
+@import 'config';
+
+.nav{
+    display: flex;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    color: #fff;
+    place-content: center;
+    padding: 1em;
+    gap: 0.5em;
+    // padding: 2em;
+    img{
+        max-width: toRem(40);
+    }
+}
