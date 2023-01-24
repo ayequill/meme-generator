@@ -7,7 +7,7 @@ randomly generated meme images.
 
 ## Authors
 
-- [@ayequill](https://www.github.com/octokatherine)
+- [@ayequill](https://www.github.com/ayequill)
 
 
 ## Installation
